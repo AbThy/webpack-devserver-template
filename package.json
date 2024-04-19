@@ -1,7 +1,7 @@
 {
-  "name": "webpackgame",
+  "name": "sample-webpack-app",
   "version": "1.0.0",
-  "description": "Custom webpack bundled game theory style game.",
+  "description": "Sample webpack bundled react app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
