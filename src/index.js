@@ -1,5 +1,16 @@
-import { v4 } from "uuid";
-import calculateAttack from "./components/unitService";
-import "./styles/main.scss";
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-console.log(calculateAttack, v4());
+const domNode = document.getElementById("mainContainer");
+const root = createRoot(domNode);
+
+const App = () => {
+  return (
+    <div>
+      <h1>Hello, webpack!</h1>
+      <h1>Hello, React!</h1>
+    </div>
+  );
+};
+
+root.render(<App />);
