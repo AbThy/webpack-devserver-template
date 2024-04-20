@@ -1,4 +1,2 @@
 node_modules
-dist/webpack.bundle**
-dist/index.html
-/dist
+dist/
