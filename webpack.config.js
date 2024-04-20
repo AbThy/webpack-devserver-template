@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "webpack.bundle-[contenthash].js",
+    clean: true,
   },
   devServer: {
     static: {
@@ -46,7 +47,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Webpack Game Theory",
       filename: "index.html",
-      template: "src/template.html",
+      template: "src/index.html",
     }),
   ],
 };
